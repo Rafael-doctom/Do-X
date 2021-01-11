@@ -1,0 +1,29 @@
+/* HEADER */
+#header{
+    background-image: url("../img/teste2.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.nav{
+    /* padding: 1rem; */
+    display: flex;
+    margin: 0 150px;
+    position: absolute;
+    align-items: center;
+}
+.logo img{
+    height: 100%;
+    max-height: 150px;
+}
+.nav .menu ul{
+    display: flex;
+}
+
+.nav .menu ul a li{
+    font-size: 1rem;
+    margin-left: 1rem;
+
+}
+.nav .menu ul a li:hover{
+    color:yellow;
+}
